@@ -10,7 +10,7 @@ ________________
 
 ## Prerequisites (for development/running locally)
 
-- NPM (node package manager) : This comes bundled with installer for Node.js which you can find <a href="">Here</a>
+- NPM (node package manager) : This comes bundled with installer for Node.js which you can find <a href="https://nodejs.org/en/download/">Here</a>
 - Command Line Tool (e.g- Windows CMD)
 - Text Editor/IDE (e.g-Sublime Text, Notepad++, VSCode)
 
