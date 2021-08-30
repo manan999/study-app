@@ -19,11 +19,11 @@ ________________
 ## Installation Instructions
 
 1. Clone the repository
-2. Using, Terminal go to the corresponsing directory and run 
+2. To install all the dependencies for the project. Using Terminal go to the corresponsing directory and run 
   ```
   npm install
   ```
-  This will install the dependencies for the project
+  
 3. To run development/local build
   ```
   npm start
