@@ -4,7 +4,7 @@ _______________
 
 ## Live Preview
 
-<a href="https://myarthhardware.com"> Here </a>
+<a href="https://study-app-hackathon.web.app"> Here </a>
 
 ________________
 
