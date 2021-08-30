@@ -2,13 +2,13 @@
 
 _______________
 
-# Live Preview
+## Live Preview
 
 <a href="https://myarthhardware.com"> Here </a>
 
 ________________
 
-# Prerequisites (for development/running locally)
+## Prerequisites (for development/running locally)
 
 - NPM (node package manager) : This comes bundled with installer for Node.js which you can find <a href="">Here</a>
 - Command Line Tool (e.g- Windows CMD)
@@ -16,7 +16,7 @@ ________________
 
 ________________
 
-# Installation Instructions
+## Installation Instructions
 
 1. Clone the repository
 2. Using, Terminal go to the corresponsing directory and run 
