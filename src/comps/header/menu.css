@@ -1,0 +1,52 @@
+.burger a, .burger div
+{
+	display: block ;
+	border-bottom: 1px solid rgb(29, 41, 81);
+}
+
+.burger, .cheeseburger-menu-inner
+{
+	background-color: #080c3c ;
+}
+
+.burger a:hover, .burger div:hover
+{
+	background-color: rgb(29, 41, 81);
+	color: white;
+}
+
+.menu-item
+{
+	color: whitesmoke;
+	font-size: 1.6rem ;
+	text-decoration: none ;
+	transition: all 0.5s ;
+	margin: 0.1em ;
+	font-family: 'Kufam', sans-serif;
+}
+
+.innerburger
+{
+	border-bottom: 1px solid rgb(70, 130, 180) !important;
+	text-align: center; 
+}
+
+.innerburger:hover
+{
+	background-color: rgb(70, 130, 180) !important ;
+}
+
+
+@media (max-width: 600px)
+{
+	.cheeseburger-menu
+	{
+		padding-top: 1em ;
+	}
+
+	.menu-item
+	{
+		font-size: 1.3rem ;
+		margin: 0.4em 0.1em ;
+	}
+}

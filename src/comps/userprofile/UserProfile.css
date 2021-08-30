@@ -1,0 +1,102 @@
+.user-profile
+{ 
+  font-family: var(--font);
+  font-size: 1rem ;
+  padding: 2.2em 1em 1em ;
+}
+
+.up-left
+{ 
+  display: flex ;
+  justify-content: flex-end;
+  padding-right: 2em ;
+}
+
+.up-button {
+  color: var(--kamWhite);
+  background-color: var(--laal) ;
+  min-width: 10vw ;
+  margin: 0 0.8em ;
+  padding: 0.5em .8em ;
+  border: 1px solid var(--laal) ;
+  border-radius: .2rem ;
+  font-family: var(--font);
+  font-size: 1rem ;
+  font-weight: bold ;
+  cursor: pointer ;
+  transition: all .2s ;
+}
+
+.up-button:hover {
+  background-color: var(--kamWhite) ;
+  color: var(--laal) ;
+}
+
+.up-del {
+  background-color: darkred ;
+  border: 1px solid darkred ;
+}
+
+.up-del:hover {
+  background-color: var(--kamWhite) ;
+  color: darkred ;
+}
+
+.up-form {
+  margin: 1em ;
+  display: block;
+}
+
+.up-right
+{ 
+  display: flex;
+  flex-direction: row ;
+  padding: 1.5em 3em 0 0.5em ;
+}
+
+.up-east {
+  flex-basis: 50% ;
+}
+
+.up-west {
+  display: flex;
+  flex-basis: 50% ;
+  justify-content: center;
+  align-items: center;
+}
+
+.up-image {
+  max-height: 350px ;
+  max-width: 350px ;
+  border: 2px solid var(--laal);
+  border-radius: 5rem ;
+}
+
+@media(max-width: 600px)
+{  
+  .user-profile
+  { padding: .5em ;
+    font-size: 1rem ;
+    flex-direction: column-reverse;
+  }
+   
+  .up-left
+  { display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    margin-left: 0 ;
+  }
+
+  .up-right
+  { width: 90% ;
+    margin-left: 0 ;
+    padding-left: 0.5em ;
+  }
+
+  .up-button
+  { min-width: 7.4vw ;
+    margin: .4em 0 ;
+    padding: 0.5em .7em ;
+    font-size: 0.7rem ;
+  }
+}

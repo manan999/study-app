@@ -1,0 +1,194 @@
+.header
+{
+	background-color: var(--kamWhite);
+	font-family: var(--font) ;
+	display: flex ;
+	justify-content: center;
+  	width: 100% ;
+  	height: 80px;
+	position: fixed; 
+  	top: 0 ;
+  	z-index: 29 ;
+	user-select: none ;
+	border-bottom: 2px solid var(--laal) ;
+}
+
+.header a {
+	color: var(--laal) ;
+	text-decoration: none ;
+}
+
+.right-header
+{
+	display: flex ; 
+	justify-content: space-between;
+	align-items: center;
+	margin-left: auto ;
+	margin-right: 1em ;
+}
+
+.logo
+{
+	font-size: 2rem ;
+	padding: 0 0.4em;
+	margin: auto ;
+	min-width: 50vw;
+	height: 92% ;
+	display: flex;
+	align-items: center;
+}
+
+.logo img	{
+	height: 92% ;
+}
+
+.logo p {
+	font-size: 1.5rem ;
+	margin: 0 0 0 1em ;
+	display: inline-block;
+	font-weight: bold ;
+	color: var(--kamBlack);
+}
+
+.usershow {
+	color: var(--laal);
+	display: flex ;
+	font-family: var(--font) ;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 10.5vw;
+	padding: .3em .5em ;
+	border-radius: 1rem ;
+	border: 2px solid var(--laal);
+	transition: all .2s ;
+}
+
+.usershow img {
+	border-radius: 50% ;
+	border: 2px solid var(--laal);
+	width: 50px ;
+	margin-right: 10px; 
+	transition: all .2s ;
+}
+
+.usershow p {
+	font-weight: bold;
+	font-size: 1.1rem ;
+	margin: 0.8em 0 ;
+	transition: all .2s ;
+}
+
+.usershow svg {
+	font-size: 1.2rem ;
+	margin-left: 10px ;
+	cursor: pointer;
+}
+
+.usershow:hover {
+	background-color: var(--laal) ;
+}
+
+.usershow:hover img {
+	border: 2px solid var(--halkaRed);
+}
+
+.usershow:hover p, .usershow:hover svg {
+	color: var(--halkaRed);
+}
+
+.usershow-menu{
+	background-color: var(--kamWhite) ;
+	position: absolute;
+	z-index: 5 ;
+	width: 11.5vw ;
+	top: 4.8em ;
+	right: 1em ;
+	padding: .2em .2em .2em 0;
+	border-left: 1px solid var(--laal);
+	border-right: 1px solid var(--laal);
+	border-radius: .5rem ;
+	overflow: hidden ;
+}
+
+.settings {
+	font-size: 2rem ;
+	margin-right: 0.5em ;
+	cursor: pointer;
+}
+
+.logout-btn {
+	border: none;
+	box-shadow: none;
+	outline: none ;
+	display: inline-block; 
+	border-bottom: 1px solid lightgray;
+	background-color: var(--kamWhite) ;
+	color: var(--laal);
+	font-size: 1.2rem;
+	padding: .3em 1.5em ;
+	width: 100%;
+	text-decoration: none ;
+	transition: all 0.1s ;
+}
+
+.logout-btn:hover {
+	background-color: var(--dusraRed) ;
+	color: var(--kamWhite);
+}
+
+/*.header-item	{
+	display: inline-block;
+	font-size: 1.2rem ;
+	font-family: 'Kufam' ;
+	margin: 0 .5em ;
+	padding: 1em ;
+	cursor: pointer ;
+	color: skyblue ;
+	text-decoration: none ;
+	transition: all 0.5s ;
+}
+
+.header-item:hover {
+	background-color: skyblue ;
+	color: #08042c; 
+}
+
+.contact-num
+{	margin: 0.1em ;
+	display: inline-block;
+	font-size: 1rem;
+	padding: .5em ;
+}
+
+.contact-num a {
+	color: skyblue;
+	text-decoration: none ;
+}
+
+.contact-num:hover a {
+	color: #08042c;
+}*/
+
+@media (max-width: 600px)
+{
+	.right-header
+	{
+		margin-left: auto ;
+		margin-right: 1em ;
+	}
+
+	.logo
+	{
+		height: 100% ;
+	}
+
+	.logo img	{
+		height: 60% ;
+	}
+
+	.contact-num
+	{	margin: 0.1em ;
+		font-size: 0.8rem;
+		padding: .5em ;
+	}
+}
